@@ -49,7 +49,7 @@ function whatIsInAName(collection, source) {
   
     arr = collection.filter(item =>
         keysToCheck.every(key => 
-        item.hasOwnProperty(key) && item[key] === source[key]))
+        item[key] === source[key]))
   
   
     return arr;

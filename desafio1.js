@@ -1,8 +1,9 @@
-// Somar todos os números em um intervaloAprovado
-// Vamos passar um array de dois números. Retorne a soma desses dois números mais a 
-// soma de todos os números entre eles. O menor número nem sempre chegará primeiro.
+// Diff Two ArraysPassed
+// Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. 
+// In other words, return the symmetric difference of the two arrays.
 
-// Por exemplo, sumAll([4,1]) deve retornar 10 porque a soma de todos os números entre 1 e 4 (ambos incluídos) é 10.
+// Note: You can return the array with its elements in any order.
+
 
 function diffArray(arr1, arr2) {
     var newArr = [];
